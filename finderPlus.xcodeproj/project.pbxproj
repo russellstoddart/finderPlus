@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FBF3E1F1F1B9919007A63C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBF3E1E1F1B9919007A63C7 /* AppDelegate.swift */; };
+		6FBF3E211F1B9919007A63C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBF3E201F1B9919007A63C7 /* ViewController.swift */; };
+		6FBF3E231F1B991A007A63C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FBF3E221F1B9919007A63C7 /* Assets.xcassets */; };
+		6FBF3E261F1B991A007A63C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FBF3E241F1B991A007A63C7 /* Main.storyboard */; };
+		6FBF3E311F1B991A007A63C7 /* finderPlusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBF3E301F1B991A007A63C7 /* finderPlusTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FBF3E2D1F1B991A007A63C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FBF3E131F1B9919007A63C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FBF3E1A1F1B9919007A63C7;
+			remoteInfo = finderPlus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6FBF3E1B1F1B9919007A63C7 /* finderPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finderPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FBF3E1E1F1B9919007A63C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6FBF3E201F1B9919007A63C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6FBF3E221F1B9919007A63C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FBF3E251F1B991A007A63C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FBF3E271F1B991A007A63C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FBF3E2C1F1B991A007A63C7 /* finderPlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = finderPlusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FBF3E301F1B991A007A63C7 /* finderPlusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finderPlusTests.swift; sourceTree = "<group>"; };
+		6FBF3E321F1B991A007A63C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FBF3E181F1B9919007A63C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FBF3E291F1B991A007A63C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FBF3E121F1B9919007A63C7 = {
+			isa = PBXGroup;
+			children = (
+				6FBF3E1D1F1B9919007A63C7 /* finderPlus */,
+				6FBF3E2F1F1B991A007A63C7 /* finderPlusTests */,
+				6FBF3E1C1F1B9919007A63C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FBF3E1C1F1B9919007A63C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FBF3E1B1F1B9919007A63C7 /* finderPlus.app */,
+				6FBF3E2C1F1B991A007A63C7 /* finderPlusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FBF3E1D1F1B9919007A63C7 /* finderPlus */ = {
+			isa = PBXGroup;
+			children = (
+				6FBF3E1E1F1B9919007A63C7 /* AppDelegate.swift */,
+				6FBF3E201F1B9919007A63C7 /* ViewController.swift */,
+				6FBF3E221F1B9919007A63C7 /* Assets.xcassets */,
+				6FBF3E241F1B991A007A63C7 /* Main.storyboard */,
+				6FBF3E271F1B991A007A63C7 /* Info.plist */,
+			);
+			path = finderPlus;
+			sourceTree = "<group>";
+		};
+		6FBF3E2F1F1B991A007A63C7 /* finderPlusTests */ = {
+			isa = PBXGroup;
+			children = (
+				6FBF3E301F1B991A007A63C7 /* finderPlusTests.swift */,
+				6FBF3E321F1B991A007A63C7 /* Info.plist */,
+			);
+			path = finderPlusTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FBF3E1A1F1B9919007A63C7 /* finderPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FBF3E351F1B991A007A63C7 /* Build configuration list for PBXNativeTarget "finderPlus" */;
+			buildPhases = (
+				6FBF3E171F1B9919007A63C7 /* Sources */,
+				6FBF3E181F1B9919007A63C7 /* Frameworks */,
+				6FBF3E191F1B9919007A63C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = finderPlus;
+			productName = finderPlus;
+			productReference = 6FBF3E1B1F1B9919007A63C7 /* finderPlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FBF3E2B1F1B991A007A63C7 /* finderPlusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FBF3E381F1B991A007A63C7 /* Build configuration list for PBXNativeTarget "finderPlusTests" */;
+			buildPhases = (
+				6FBF3E281F1B991A007A63C7 /* Sources */,
+				6FBF3E291F1B991A007A63C7 /* Frameworks */,
+				6FBF3E2A1F1B991A007A63C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FBF3E2E1F1B991A007A63C7 /* PBXTargetDependency */,
+			);
+			name = finderPlusTests;
+			productName = finderPlusTests;
+			productReference = 6FBF3E2C1F1B991A007A63C7 /* finderPlusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FBF3E131F1B9919007A63C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Russell Stoddart";
+				TargetAttributes = {
+					6FBF3E1A1F1B9919007A63C7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4R6YHXDBJR;
+						ProvisioningStyle = Automatic;
+					};
+					6FBF3E2B1F1B991A007A63C7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4R6YHXDBJR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6FBF3E1A1F1B9919007A63C7;
+					};
+				};
+			};
+			buildConfigurationList = 6FBF3E161F1B9919007A63C7 /* Build configuration list for PBXProject "finderPlus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FBF3E121F1B9919007A63C7;
+			productRefGroup = 6FBF3E1C1F1B9919007A63C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FBF3E1A1F1B9919007A63C7 /* finderPlus */,
+				6FBF3E2B1F1B991A007A63C7 /* finderPlusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FBF3E191F1B9919007A63C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FBF3E231F1B991A007A63C7 /* Assets.xcassets in Resources */,
+				6FBF3E261F1B991A007A63C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FBF3E2A1F1B991A007A63C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FBF3E171F1B9919007A63C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FBF3E211F1B9919007A63C7 /* ViewController.swift in Sources */,
+				6FBF3E1F1F1B9919007A63C7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FBF3E281F1B991A007A63C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FBF3E311F1B991A007A63C7 /* finderPlusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FBF3E2E1F1B991A007A63C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FBF3E1A1F1B9919007A63C7 /* finderPlus */;
+			targetProxy = 6FBF3E2D1F1B991A007A63C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6FBF3E241F1B991A007A63C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FBF3E251F1B991A007A63C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FBF3E331F1B991A007A63C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6FBF3E341F1B991A007A63C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		6FBF3E361F1B991A007A63C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4R6YHXDBJR;
+				INFOPLIST_FILE = finderPlus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RS.finderPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6FBF3E371F1B991A007A63C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4R6YHXDBJR;
+				INFOPLIST_FILE = finderPlus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RS.finderPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6FBF3E391F1B991A007A63C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4R6YHXDBJR;
+				INFOPLIST_FILE = finderPlusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RS.finderPlusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/finderPlus.app/Contents/MacOS/finderPlus";
+			};
+			name = Debug;
+		};
+		6FBF3E3A1F1B991A007A63C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4R6YHXDBJR;
+				INFOPLIST_FILE = finderPlusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RS.finderPlusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/finderPlus.app/Contents/MacOS/finderPlus";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FBF3E161F1B9919007A63C7 /* Build configuration list for PBXProject "finderPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FBF3E331F1B991A007A63C7 /* Debug */,
+				6FBF3E341F1B991A007A63C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FBF3E351F1B991A007A63C7 /* Build configuration list for PBXNativeTarget "finderPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FBF3E361F1B991A007A63C7 /* Debug */,
+				6FBF3E371F1B991A007A63C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6FBF3E381F1B991A007A63C7 /* Build configuration list for PBXNativeTarget "finderPlusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FBF3E391F1B991A007A63C7 /* Debug */,
+				6FBF3E3A1F1B991A007A63C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FBF3E131F1B9919007A63C7 /* Project object */;
+}
