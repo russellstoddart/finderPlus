@@ -11,12 +11,14 @@ import Foundation
 class PathManager {
     
     var currentPath: String
+    var currentURL: URL
     
     let fileManager: FileManager
     
     init(startPath: String = NSHomeDirectory(), fileManager: FileManager = FileManager()) {
         
         currentPath = startPath
+        currentURL = fileManager.homeDirectoryForCurrentUser
         
         self.fileManager = fileManager
     }
@@ -54,6 +56,10 @@ class PathManager {
     
     private func contentsOfCurrentPath() -> [String] {
         
+        contentsOfCurrentURL()
+
+        fileManager.changeCurrentDirectoryPath(currentPath)
+        
         var contents: [String] = []
         
         do {
@@ -74,5 +80,25 @@ class PathManager {
         }
         
         return contents
+    }
+    
+    private func contentsOfCurrentURL() {
+
+        do {
+            let urlsForCurrentURL = try fileManager.contentsOfDirectory(at: currentURL, includingPropertiesForKeys: [URLResourceKey(rawValue: "NSURLNameKey")], options: [.skipsSubdirectoryDescendants, .skipsHiddenFiles])
+            let namesForCurrentURL = urlsForCurrentURL.first!.path
+            print(urlsForCurrentURL.count, namesForCurrentURL, "\n", urlsForCurrentURL.first!, "\n", fileManager.currentDirectoryPath)
+            fileManager.changeCurrentDirectoryPath(NSHomeDirectory())
+        } catch {
+
+        }
+
+//        for url in contents {
+//            
+//            if let url = url as? URL {
+//                
+//                print(url)
+//            }
+//        }
     }
 }

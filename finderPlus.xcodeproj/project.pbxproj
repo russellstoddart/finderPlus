@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F61562920D3B15E0018889F /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F61562820D3B15E0018889F /* Command.swift */; };
+		6F61562B20D3C1E80018889F /* CommandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F61562A20D3C1E80018889F /* CommandTests.swift */; };
 		6FBF3E1F1F1B9919007A63C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBF3E1E1F1B9919007A63C7 /* AppDelegate.swift */; };
 		6FBF3E211F1B9919007A63C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBF3E201F1B9919007A63C7 /* ViewController.swift */; };
 		6FBF3E231F1B991A007A63C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FBF3E221F1B9919007A63C7 /* Assets.xcassets */; };
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F61562820D3B15E0018889F /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		6F61562A20D3C1E80018889F /* CommandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandTests.swift; sourceTree = "<group>"; };
 		6FBF3E1B1F1B9919007A63C7 /* finderPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finderPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FBF3E1E1F1B9919007A63C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FBF3E201F1B9919007A63C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +93,7 @@
 				6FBF3E241F1B991A007A63C7 /* Main.storyboard */,
 				6FBF3E271F1B991A007A63C7 /* Info.plist */,
 				6FE313BF1F1E93820064F3D9 /* PathManager.swift */,
+				6F61562820D3B15E0018889F /* Command.swift */,
 			);
 			path = finderPlus;
 			sourceTree = "<group>";
@@ -98,6 +103,7 @@
 			children = (
 				6FBF3E301F1B991A007A63C7 /* finderPlusTests.swift */,
 				6FBF3E321F1B991A007A63C7 /* Info.plist */,
+				6F61562A20D3C1E80018889F /* CommandTests.swift */,
 			);
 			path = finderPlusTests;
 			sourceTree = "<group>";
@@ -210,6 +216,7 @@
 				6FE313C01F1E93820064F3D9 /* PathManager.swift in Sources */,
 				6FBF3E211F1B9919007A63C7 /* ViewController.swift in Sources */,
 				6FBF3E1F1F1B9919007A63C7 /* AppDelegate.swift in Sources */,
+				6F61562920D3B15E0018889F /* Command.swift in Sources */,
 				6FBF3E411F1BABB9007A63C7 /* CollectionViewItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FBF3E311F1B991A007A63C7 /* finderPlusTests.swift in Sources */,
+				6F61562B20D3C1E80018889F /* CommandTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +293,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -329,7 +337,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -340,12 +348,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 4R6YHXDBJR;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = finderPlus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RS.finderPlus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -354,12 +365,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 4R6YHXDBJR;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = finderPlus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RS.finderPlus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -369,12 +383,15 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 4R6YHXDBJR;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = finderPlusTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RS.finderPlusTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/finderPlus.app/Contents/MacOS/finderPlus";
 			};
@@ -385,12 +402,15 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 4R6YHXDBJR;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = finderPlusTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RS.finderPlusTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/finderPlus.app/Contents/MacOS/finderPlus";
 			};
